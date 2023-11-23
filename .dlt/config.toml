@@ -1,0 +1,2 @@
+[destination.bigquery]
+location="europe-west3"
