@@ -24,7 +24,3 @@ def load_pipeline_with_ranges():
 
     info = pipeline.run(data, write_disposition="append")
     print(info)
-
-
-def gsheets_check_pipeline():
-    load_pipeline_with_ranges()
