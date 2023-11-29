@@ -5,7 +5,7 @@ from google_sheets import google_spreadsheet
 def load_pipeline_with_ranges():
 
     spreadsheet_url_or_id = "1ft6plZYbFxscYRwNLCHLz5YFTnzgnBIqRrtVbvLYvU0" 
-    range_names = ["upload_duplicates", "upload_distinct"] 
+    range_names = ["upload_duplicates", "upload_distinct", "upload_new_duplicate_pairs"] 
 
     pipeline = dlt.pipeline(
         pipeline_name="google_sheets_pipeline",
