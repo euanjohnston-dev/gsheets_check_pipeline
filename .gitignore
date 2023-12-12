@@ -8,6 +8,6 @@ secrets.toml
 *.duckdb
 *.wal
 .env
-keyfile.json
 venv
+keyfile.json
 Makefile
