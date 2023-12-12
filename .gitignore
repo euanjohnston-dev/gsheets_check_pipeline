@@ -10,3 +10,4 @@ secrets.toml
 .env
 keyfile.json
 venv
+Makefile
